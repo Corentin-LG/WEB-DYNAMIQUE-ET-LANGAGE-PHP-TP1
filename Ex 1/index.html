@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+
+MIN - Exercice 1 - TP1
+04/03/2021
+-->
+<html>
+
+<head>
+    <title>Exercice 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- On associe un fichier CSS qui permet de définir la présentation -->
+    <link rel="stylesheet" type="text/css" title="design" href="stockage/fichier_css.css" />
+    <!-- On  associe une image icone pour l'entête -->
+    <link rel="icon" type="image/png" href="stockage/icone.png" />
+    <!-- type donne juste une info textuelle -->
+</head>
+
+<!-- définir les meta données ; résumé de la page web pour l'afficher dans les moteurs de recherches ; auteur de la page web -->
+<!-- mieux de faire 1 meta / attribut-->
+<!-- margin : entre 2 éléments et padding : rétrécissiement de l'élément -->
+<!-- border à 1 % permet de voir comment l'élément est interprété par le navigateur -->
+
+<body>
+    <!--Logo Epf-->
+    <div id="epf">
+        <img src="stockage/logo_epf_0.png" alt="logo de l'EPF" />
+    </div>
+    <!--Début menu-->
+    <div id="menu">
+        <!--On définit la première image en dehors du tableau (sinon le tableau est trop grand en hauteur) -->
+        <img id="image-menu" src="stockage/home-button.png" alt="bouton home" />
+        <!--Début du tableau menu -->
+        <table id="tmenu">
+            <tr>
+                <!--Les images de séparateur sont dans 1 case sur 2 (pour séparer les textes)-->
+                <td><img src="stockage/menu-separator.png" alt="image séparateur" /></td>
+                <td class="t-text">Intégration HTML</td>
+                <td><img src="stockage/menu-separator.png" alt="image séparateur" /></td>
+                <td class="t-text">CSS</td>
+                <td><img src="stockage/menu-separator.png" alt="image séparateur" /></td>
+                <td class="t-text">JavaScript</td>
+                <td><img src="stockage/menu-separator.png" alt="image séparateur" /></td>
+                <td class="t-text">Php</td>
+                <td><img src="stockage/menu-separator.png" alt="image séparateur" /></td>
+                <td class="t-text">Autres ...</td>
+                <td><img src="stockage/menu-separator.png" alt="image séparateur" /></td>
+            </tr>
+        </table>
+        <!--Fin du tableau menu -->
+    </div>
+    <!--Fin menu-->
+    <!--Image nuage-->
+    <div id="nuage">
+        <img src="stockage/01.jpg" alt="alt" />
+    </div>
+    <!--Début du corps -->
+    <div id="corps">
+        <div class="p-contenu"> <!--Classe du premier "bloc" -->
+            <p class="titre">
+                <img src="stockage/html.jpg" alt="html" />
+                <!--Image et titre sont sur la même ligne donc dans le même paragraphe-->
+                Intégration HTML
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adi piscing elit. <!--Le texte est dans un autre paragraphe -->
+                Donec consectetur, nibh ut feugiat placerat, orci lacus accusan erat,
+                eget porttitor arcu velit a lacus. Sed tempus bibendum risus.</p>
+            <!--Le bouton (et le texte qui va avec) sont dans un autre paragraphe (ici le bouton est une image en fond) -->
+            <p class="bouton">Voir le TD</p>
+        </div>
+
+    </div>
+
+    <div class="p-contenu">
+        <p class="titre">
+            <img src="stockage/js.jpg" alt="JavaScript" />
+            <!--Image et titre sont sur la même ligne donc dans le même paragraphe-->
+            Intégration HTML
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adi piscing elit. <!--Le texte est dans un autre paragraphe -->
+            Donec consectetur, nibh ut feugiat placerat, orci lacus accusan erat,
+            eget porttitor arcu velit a lacus. Sed tempus bibendum risus.</p>
+        <!--Le bouton (et le texte qui va avec) sont dans un autre paragraphe (ici le bouton est une image en fond) -->
+        <p class="bouton">Voir le TD</p>
+    </div>
+    <div class="p-contenu">
+        <p class="titre">
+            <img src="stockage/ajax.jpg" alt="iGuery & AJAX" />
+            <!--Image et titre sont sur la même ligne donc dans le même paragraphe-->
+            Intégration HTML
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adi piscing elit. <!--Le texte est dans un autre paragraphe -->
+            Donec consectetur, nibh ut feugiat placerat, orci lacus accusan erat,
+            eget porttitor arcu velit a lacus. Sed tempus bibendum risus.</p>
+        <!--Le bouton (et le texte qui va avec) sont dans un autre paragraphe (ici le bouton est une image en fond) -->
+        <p class="bouton">Voir le TD</p>
+    </div>
+
+    <div class="sous_partie_gauche">
+        <div class="titre_sous_partie">
+            Derniers TDs
+        </div>
+        <div class="petit-article">
+            <p class="titre_TD">Intégration HTML </p>
+            <p class="text_gris">20 octobre 2020 </p>
+        </div>
+        <div class="petit-article">
+            <p class="titre_TD">Mise en forme CSS </p>
+            <p class="text_gris">13 octobre 2020 </p>
+        </div>
+        <div class="petit-article">
+            <p class="titre_TD">Découverte HTML </p>
+            <p class="text_gris">6 octobre 2020 </p>
+        </div>
+    </div>
+    <div class="sous_partie_droite">
+        <div class="titre_sous_partie">
+            A propos
+        </div>
+        <div>
+            <p>Site développé par Corentin LE GOFF dans le cadre des Travaux Dirigés</p>
+            </p>
+        </div>
+    </div>
+    <footer id="pied_de_page" >
+        <img src="stockage/footer.png" alt="Pied de page">
+    </footer>
+
+
+
+    <!--Fin du corps -->
+</body>
+
+</html>

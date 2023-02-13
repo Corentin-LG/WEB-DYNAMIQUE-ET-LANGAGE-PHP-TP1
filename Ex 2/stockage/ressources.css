@@ -1,0 +1,86 @@
+#page {
+    border: 0px solid rgb(25, 0, 255);
+}
+#en-tete {
+    width: inherit;
+    height: 100px;
+    background-image    : url("entete_application.png");
+    background-size: 100% 100%;
+    background-repeat   : no-repeat;
+}
+#conteneur-principal {
+    border: 0px solid rgb(0, 255, 0);
+    width: inherit;
+    display: flex;
+}
+#menu {
+    border: 0px solid rgb(255, 0, 0);
+    width: 175px;
+    min-width: 10%;
+    margin-top: 0.6%;
+}
+#choix-menu {
+    border: 0px solid rgb(0, 0, 0);
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-image    : url("menu.png");
+    background-repeat   : no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.6;
+    margin: 0%;
+    
+}
+ul#choix-menu >li {
+   margin: 2px;
+   border-top: 2px  solid rgb(202, 200, 200);
+   vertical-align: middle;
+   padding-top: 5%;
+   padding-bottom: -8%;
+   height: 25px;
+}
+#conteneur-text{
+    border: 1px solid rgb(173, 173, 173);
+    text-align: left;
+    padding-left: 5px;
+    height: 500px;
+    width: 90%;
+    margin: 1%;
+    margin-right: 0%;
+}
+#conteneur-text>p{
+    text-indent: 2%;
+}
+#conteneur-accueil{
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+    
+    border: 0px solid rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 0%;
+}
+#conteneur-text>h1{
+    color: rgb(0, 92, 179);
+    text-decoration: underline;
+    font-weight: bold;
+}
+#conteneur-text>ul>li{
+    font-size: 15px;
+    color: rgb(0, 92, 179);
+    text-decoration: underline;
+    font-weight: bold;
+}
+#pied-de-page{
+    background-image    : url("pied_de_page.png");
+    background-repeat   : no-repeat;
+    background-size: 100% 100%;
+}
+#pied-de-page>p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}

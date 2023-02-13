@@ -1,0 +1,33 @@
+label {
+  float: left;
+  text-align: left;
+  margin-right: 10px;
+  width: 200px;
+}
+button{
+  font-size: 15px;
+  font-weight: bold;
+}
+#bdd{
+  border-collapse: collapse;
+}
+th{
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid rgb(214, 214, 214);
+  padding-left : 1rem;
+  padding-right : 1rem;
+  background-color: rgb(68, 255, 99);
+  box-shadow:#000000 0.1px 0.1px -1px;
+}
+#info-text{
+  display: flex;
+}
+input{
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(219, 219, 219);
+}
+legend{
+  
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
